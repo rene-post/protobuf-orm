@@ -112,7 +112,7 @@ The ORM has mapped the field ```optional string text = 1;``` of the message to a
 *Foo_numbers*. *Foo_numbers* refers back to the _Foo_ table via ```parent_id
 INTEGER```.
 
-##Connecting to a Database
+## Connecting to a Database
 
 Before protobuf objects can be stored in the database, first a database must be
 created. If a database already exists a connection to this database has to be
